@@ -25,7 +25,7 @@ Exploring synthetic data for SQL, EDA, and agents.
 <sub>NVIDIA-NeMo</sub>
 <h3><a href="https://github.com/NVIDIA-NeMo/DataDesigner">NeMo Data Designer</a></h3>
 <p>A framework for multimodal synthetic data generation.</p>
-<p>Fixed numeric sampler rounding so constraints and conditional branches use the values returned in the dataset. Added regression tests and precision migration docs.</p>
+<p>Fixed rounding in numeric samplers so constraints and conditional branches match the generated data. Added regression tests and documented the precision changes.</p>
 <p><a href="https://github.com/NVIDIA-NeMo/DataDesigner/pull/1022">PR #1022</a> &nbsp;·&nbsp; Merged 16 Oct 2026 &nbsp;·&nbsp; 1 merged contribution</p>
 </td></tr>
 </table>
