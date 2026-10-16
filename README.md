@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/night-desk.png" alt="A pixel-art research desk overlooking Shanghai at night, with glowing monitors and a warm desk lamp." width="100%">
 
-<h2 align="center">Hi, I'm Ruichao.</h2>
+<h2 align="center">Hi, I'm Catwarrior.</h2>
 
 <p align="center">
   Exploring synthetic data for LLM.<br>
