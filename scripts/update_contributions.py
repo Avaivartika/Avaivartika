@@ -144,20 +144,21 @@ def render_profile(records, config):
         label = "merged contribution" if count == 1 else "merged contributions"
         lines.extend([
             '<table width="100%">',
-            '<tr><td>',
-            f'<sub>{escaped(name.split("/", 1)[0])}</sub>',
+            '<tr>',
+            '<td>',
+            '<img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/contribution.svg" align="right" width="44" height="44" alt="Merged contribution">',
+            f'<sub>{escaped(name.split("/", 1)[0])} &nbsp; / &nbsp; OPEN SOURCE</sub>',
             f'<h3><a href="{escaped(latest["repository_url"])}">{escaped(title)}</a></h3>',
             f'<p>{escaped(description)}</p>' if description else "",
             f'<p>{escaped(summary)}</p>',
-            f'<p><a href="{escaped(latest["url"])}">PR #{latest["number"]}</a>'
-            f' &nbsp;·&nbsp; Merged {date_label(latest["merged_at"])}'
-            f' &nbsp;·&nbsp; {count} {label}</p>',
+            f'<p><a href="{escaped(latest["url"])}"><strong>Read PR #{latest["number"]} ↗</strong></a></p>',
+            f'<sub>Merged {date_label(latest["merged_at"])} &nbsp;·&nbsp; {count} {label}</sub>',
             '</td></tr>',
             '</table>',
             '',
         ])
     url = f'https://github.com/{config["username"]}/{config["username"]}/blob/main/CONTRIBUTIONS.md'
-    lines.append(f'<p><a href="{url}">View the full contribution log →</a></p>')
+    lines.append(f'<p><sub><a href="{url}">All contributions →</a></sub></p>')
     return "\n".join(lines).strip()
 
 

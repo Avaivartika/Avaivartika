@@ -1,9 +1,13 @@
 # Maintaining this profile
 
 The profile uses GitHub's own typography and light/dark themes. Its short navigation
-and restrained layout take inspiration from [Anthony Fu's profile](https://github.com/antfu).
-The content and contribution renderer are written for this profile; no third-party
-profile assets, tracking badges, or remotely hosted statistics cards are required.
+takes inspiration from [Anthony Fu's profile](https://github.com/antfu), while the
+illustrated cover and project layout take inspiration from
+[Anurag Hazra's profile](https://github.com/anuraghazra).
+The pixel-art cover and contribution icon live in `assets/` and are served from this
+repository. The cover depicts an imagined research desk overlooking Shanghai; its
+screen graphics are decorative. No third-party profile assets, tracking badges, or
+remotely hosted statistics cards are required.
 
 ## What gets listed
 
@@ -23,6 +27,11 @@ record is [data/contributions.json](data/contributions.json).
 
 Edit the introduction and navigation directly in `README.md`. The updater only
 replaces the section between `CONTRIBUTIONS:START` and `CONTRIBUTIONS:END`.
+The introduction currently follows the owner's wording about synthetic data for LLMs.
+The cover is `assets/night-desk.png`, and the small pixel icon is
+`assets/contribution.svg`. The same artwork is used in light and dark mode, while
+the text and contribution cards follow GitHub's theme. Keep important information
+in the README text so it remains accessible and readable on a phone.
 
 To give a project a friendlier name, description, or a summary of a specific PR,
 edit `profile.json`. A new project needs no manual entry; it initially uses the

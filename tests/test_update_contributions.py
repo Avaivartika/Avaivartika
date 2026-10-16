@@ -1,4 +1,5 @@
 import copy
+from html.parser import HTMLParser
 import importlib.util
 import json
 from pathlib import Path
@@ -83,7 +84,18 @@ class ContributionTests(unittest.TestCase):
         node['title'] = '<img src=x onerror="alert(1)">'
         records = [updater.public_contribution(node, 'Avaivartika')]
         rendered = updater.render_profile(records, {'username': 'Avaivartika'})
-        self.assertNotIn('<img', rendered)
+        class Tags(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.attributes = []
+
+            def handle_starttag(self, tag, attrs):
+                self.attributes.extend(attrs)
+
+        parsed = Tags()
+        parsed.feed(rendered)
+        self.assertFalse(any(name == 'onerror' for name, value in parsed.attributes))
+        self.assertFalse(any(name == 'src' and value == 'x' for name, value in parsed.attributes))
         self.assertIn('&lt;img', rendered)
 
     def test_profile_has_one_entry_per_repo_and_archive_keeps_every_pr(self):
