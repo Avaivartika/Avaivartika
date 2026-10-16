@@ -4,7 +4,7 @@
 
 <samp>Avaivartika · Shanghai Jiao Tong University</samp>
 
-Exploring synthetic data for SQL, EDA, and agents.
+Exploring synthetic data for LLM.
 
 <samp>
   <a href="#open-source">open source</a> &nbsp;·&nbsp;
