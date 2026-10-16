@@ -1,0 +1,50 @@
+name: Update contributions
+
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - profile.json
+      - scripts/**
+      - tests/**
+      - .github/workflows/update-contributions.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'Avaivartika/Avaivartika'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Check the updater
+        run: python -m unittest discover -s tests -v
+      - name: Refresh public contributions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_contributions.py
+      - name: Publish changes
+        run: |
+          git add README.md CONTRIBUTIONS.md data/contributions.json
+          if git diff --cached --quiet; then
+            echo "Contribution list is already up to date."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: update open-source contributions'
+          git pull --rebase origin main
+          git push origin HEAD:main
