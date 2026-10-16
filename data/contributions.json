@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "username": "Avaivartika",
+  "contributions": [
+    {
+      "repository": "NVIDIA-NeMo/DataDesigner",
+      "repository_url": "https://github.com/NVIDIA-NeMo/DataDesigner",
+      "description": "🎨 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data.",
+      "number": 1022,
+      "title": "fix: enforce sampler constraints on rounded values",
+      "url": "https://github.com/NVIDIA-NeMo/DataDesigner/pull/1022",
+      "merged_at": "2026-10-16T13:10:02Z"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "username": "Avaivartika",
+  "repositories": {
+    "NVIDIA-NeMo/DataDesigner": {
+      "name": "NeMo Data Designer",
+      "description": "A framework for multimodal synthetic data generation.",
+      "summaries": {
+        "1022": "Fixed numeric sampler rounding so constraints and conditional branches use the values returned in the dataset. Added regression tests and precision migration docs."
+      }
+    }
+  }
+}
