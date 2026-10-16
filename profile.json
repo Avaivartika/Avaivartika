@@ -5,7 +5,7 @@
       "name": "NeMo Data Designer",
       "description": "A framework for multimodal synthetic data generation.",
       "summaries": {
-        "1022": "Fixed numeric sampler rounding so constraints and conditional branches use the values returned in the dataset. Added regression tests and precision migration docs."
+        "1022": "Fixed rounding in numeric samplers so constraints and conditional branches match the generated data. Added regression tests and documented the precision changes."
       }
     }
   }
