@@ -16,11 +16,11 @@
   </samp>
 </p>
 
-## Public notes · 公开笔记
+## 文章与笔记
 
-<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://avaivartika.github.io/catobs-public-notes/notes-preview.svg" alt="公开笔记目录预览；点击打开笔记站" width="100%"></a>
+<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://avaivartika.github.io/catobs-public-notes/notes-overview.svg" alt="文章目录预览；点击打开笔记站" width="100%"></a>
 
-<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>按主题浏览和搜索全部笔记 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看笔记仓库</a></p>
+<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>阅读全部文章 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看源文件</a></p>
 
 ## Open source
 
