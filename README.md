@@ -9,11 +9,23 @@
 
 <p align="center">
   <samp>
+    <a href="https://avaivartika.github.io/catobs-public-notes/">notes</a> ·
     <a href="https://github.com/Avaivartika?tab=repositories">projects</a> ·
     <a href="https://orcid.org/0009-0009-9259-6940">ORCID</a> ·
     <a href="https://github.com/Avaivartika/Avaivartika/blob/main/CONTRIBUTIONS.md">contributions</a>
   </samp>
 </p>
+
+## Public notes · 公开笔记
+
+<table width="100%">
+<tr><td>
+<sub>OBSIDIAN &nbsp; / &nbsp; PUBLIC NOTEBOOK</sub>
+<h3><a href="https://avaivartika.github.io/catobs-public-notes/">打开我的公开笔记 ↗</a></h3>
+<p>在 Obsidian 中挑选并分享的笔记。可以按主题浏览、搜索，并直接阅读图文内容。</p>
+<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>进入笔记站 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看笔记仓库</a></p>
+</td></tr>
+</table>
 
 ## Open source
 
