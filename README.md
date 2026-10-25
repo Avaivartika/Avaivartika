@@ -18,14 +18,9 @@
 
 ## Public notes · 公开笔记
 
-<table width="100%">
-<tr><td>
-<sub>OBSIDIAN &nbsp; / &nbsp; PUBLIC NOTEBOOK</sub>
-<h3><a href="https://avaivartika.github.io/catobs-public-notes/">打开我的公开笔记 ↗</a></h3>
-<p>在 Obsidian 中挑选并分享的笔记。可以按主题浏览、搜索，并直接阅读图文内容。</p>
-<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>进入笔记站 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看笔记仓库</a></p>
-</td></tr>
-</table>
+<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://avaivartika.github.io/catobs-public-notes/notes-preview.svg" alt="公开笔记目录预览；点击打开笔记站" width="100%"></a>
+
+<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>按主题浏览和搜索全部笔记 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看笔记仓库</a></p>
 
 ## Open source
 
