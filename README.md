@@ -10,18 +10,11 @@
 <p align="center">
   <samp>
     <a href="https://avaivartika.github.io/">blog</a> ·
-    <a href="https://avaivartika.github.io/notes/">notes</a> ·
     <a href="https://github.com/Avaivartika?tab=repositories">projects</a> ·
     <a href="https://orcid.org/0009-0009-9259-6940">ORCID</a> ·
     <a href="https://github.com/Avaivartika/Avaivartika/blob/main/CONTRIBUTIONS.md">contributions</a>
   </samp>
 </p>
-
-## 笔记
-
-<a href="https://avaivartika.github.io/notes/"><img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/notes-portal.svg" alt="Avaivartika · 笔记 — 进入博客阅读" width="100%"></a>
-
-<p><a href="https://avaivartika.github.io/"><strong>进入博客 ↗</strong></a> &nbsp;·&nbsp; <a href="https://avaivartika.github.io/notes/">阅读笔记 ↗</a></p>
 
 ## Open source
 
