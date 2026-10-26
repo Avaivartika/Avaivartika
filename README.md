@@ -9,18 +9,19 @@
 
 <p align="center">
   <samp>
-    <a href="https://avaivartika.github.io/catobs-public-notes/">notes</a> ·
+    <a href="https://avaivartika.github.io/">blog</a> ·
+    <a href="https://avaivartika.github.io/notes/">notes</a> ·
     <a href="https://github.com/Avaivartika?tab=repositories">projects</a> ·
     <a href="https://orcid.org/0009-0009-9259-6940">ORCID</a> ·
     <a href="https://github.com/Avaivartika/Avaivartika/blob/main/CONTRIBUTIONS.md">contributions</a>
   </samp>
 </p>
 
-## 文章与笔记
+## 笔记
 
-<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://raw.githubusercontent.com/Avaivartika/catobs-public-notes/main/assets/notes-site-preview-20261026.png" alt="笔记网站实际页面预览；点击阅读文章" width="100%"></a>
+<a href="https://avaivartika.github.io/notes/"><img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/notes-portal.svg" alt="Avaivartika · 笔记 — 进入博客阅读" width="100%"></a>
 
-<p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>阅读全部文章 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看源文件</a></p>
+<p><a href="https://avaivartika.github.io/"><strong>进入博客 ↗</strong></a> &nbsp;·&nbsp; <a href="https://avaivartika.github.io/notes/">阅读笔记 ↗</a></p>
 
 ## Open source
 
