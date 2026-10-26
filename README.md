@@ -18,7 +18,7 @@
 
 ## 文章与笔记
 
-<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://avaivartika.github.io/catobs-public-notes/notes-overview.svg" alt="文章目录预览；点击打开笔记站" width="100%"></a>
+<a href="https://avaivartika.github.io/catobs-public-notes/"><img src="https://raw.githubusercontent.com/Avaivartika/catobs-public-notes/main/assets/notes-site-preview-20261026.png" alt="笔记网站实际页面预览；点击阅读文章" width="100%"></a>
 
 <p><a href="https://avaivartika.github.io/catobs-public-notes/"><strong>阅读全部文章 →</strong></a> &nbsp;·&nbsp; <a href="https://github.com/Avaivartika/catobs-public-notes">查看源文件</a></p>
 
