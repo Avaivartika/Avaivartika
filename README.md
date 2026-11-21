@@ -26,6 +26,19 @@ Contributions merged into the projects I use and build on.
 <tr>
 <td>
 <img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/contribution.svg" align="right" width="44" height="44" alt="Merged contribution">
+<sub>bird-bench &nbsp; / &nbsp; OPEN SOURCE</sub>
+<h3><a href="https://github.com/bird-bench/bird-bench.github.io">bird-bench.github.io</a></h3>
+
+<p>Add SPS-SQL to BIRD overall and single-model leaderboards</p>
+<p><a href="https://github.com/bird-bench/bird-bench.github.io/pull/255"><strong>Read PR #255 ↗</strong></a></p>
+<sub>Merged 05 Nov 2026 &nbsp;·&nbsp; 1 merged contribution</sub>
+</td></tr>
+</table>
+
+<table width="100%">
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/Avaivartika/Avaivartika/main/assets/contribution.svg" align="right" width="44" height="44" alt="Merged contribution">
 <sub>NVIDIA-NeMo &nbsp; / &nbsp; OPEN SOURCE</sub>
 <h3><a href="https://github.com/NVIDIA-NeMo/DataDesigner">NeMo Data Designer</a></h3>
 <p>A framework for multimodal synthetic data generation.</p>
